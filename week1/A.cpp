@@ -12,6 +12,7 @@ int main() {
         if (first_char == 'E') {
             break;
         }
+        
         tmp = hex = dep = 0x7f7f;
         cin >> first_num >> second_char >> second_num;
         if (first_char == 'T') {
