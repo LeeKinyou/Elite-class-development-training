@@ -8,7 +8,7 @@ int main() {
     cin >> n >> m;
     visit.resize(n+1);
     for (int k = 0; k < n; k++) {
-        for(int i = 0; i < m; i++){
+        for(int i = 0; i < m; i++) {
             if( ++s > n) s = 1;
             if(visit[s]) i--;
         }
